@@ -26,8 +26,8 @@ async function loadProfile() {
 }
 
 // Best plain-English PB for a time mode; falls back to the best of any language.
-function bestPb(profile, mode) {
-  const list = profile.personalBests?.time?.[mode] ?? [];
+function bestPb(profile, type, mode) {
+  const list = profile.personalBests?.[type]?.[mode] ?? [];
   const plain = list.filter((p) => p.language === "english" && !p.punctuation && !p.numbers);
   const pool = plain.length ? plain : list;
   return pool.reduce((best, p) => (!best || p.wpm > best.wpm ? p : best), null);
@@ -47,10 +47,15 @@ function render(p) {
   const font = `font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace"`;
 
   let body = "";
-  ["15", "30", "60", "120"].forEach((mode, i) => {
-    const pb = bestPb(p, mode);
+  [
+    ["time", "15", "15s"],
+    ["words", "10", "10 words"],
+    ["words", "25", "25 words"],
+    ["time", "30", "30s"],
+  ].forEach(([type, mode, label], i) => {
+    const pb = bestPb(p, type, mode);
     body += `
-  <text x="${colX(i)}" y="72" ${font} font-size="12" fill="${C.sub}">${mode}s</text>
+  <text x="${colX(i)}" y="72" ${font} font-size="12" fill="${C.sub}">${label}</text>
   <text x="${colX(i)}" y="104" ${font} font-size="30" font-weight="700" fill="${C.main}">${pb ? Math.round(pb.wpm) : "-"}</text>
   <text x="${colX(i)}" y="124" ${font} font-size="11" fill="${C.sub}">${pb ? `wpm · ${Math.round(pb.acc)}% acc` : "no pb yet"}</text>`;
   });
