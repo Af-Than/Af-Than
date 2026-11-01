@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="215" viewBox="0 0 495 215" role="img" aria-label="Monkeytype stats for Af-Than">
+  <rect width="495" height="215" rx="10" fill="#323437"/>
+  <text x="24" y="38" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="16" font-weight="700" fill="#e2b714">monkeytype</text>
+  <text x="471" y="38" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="14" text-anchor="end" fill="#646669">Af-Than</text>
+  <line x1="24" y1="50" x2="471" y2="50" stroke="#646669" stroke-opacity="0.4"/>
+  <line x1="24" y1="144" x2="471" y2="144" stroke="#646669" stroke-opacity="0.4"/>
+  <text x="24" y="72" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="12" fill="#646669">15s</text>
+  <text x="24" y="104" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="30" font-weight="700" fill="#e2b714">107</text>
+  <text x="24" y="124" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="11" fill="#646669">wpm · 97% acc</text>
+  <text x="135.75" y="72" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="12" fill="#646669">30s</text>
+  <text x="135.75" y="104" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="30" font-weight="700" fill="#e2b714">85</text>
+  <text x="135.75" y="124" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="11" fill="#646669">wpm · 96% acc</text>
+  <text x="247.5" y="72" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="12" fill="#646669">60s</text>
+  <text x="247.5" y="104" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="30" font-weight="700" fill="#e2b714">72</text>
+  <text x="247.5" y="124" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="11" fill="#646669">wpm · 89% acc</text>
+  <text x="359.25" y="72" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="12" fill="#646669">120s</text>
+  <text x="359.25" y="104" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="30" font-weight="700" fill="#e2b714">69</text>
+  <text x="359.25" y="124" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="11" fill="#646669">wpm · 92% acc</text>
+  <text x="24" y="172" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="16" fill="#d1d0c5">885</text>
+  <text x="24" y="190" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#646669">tests completed</text>
+  <text x="135.75" y="172" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="16" fill="#d1d0c5">8h 8m</text>
+  <text x="135.75" y="190" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#646669">time typing</text>
+  <text x="247.5" y="172" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="16" fill="#d1d0c5">79</text>
+  <text x="247.5" y="190" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#646669">level</text>
+  <text x="359.25" y="172" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="16" fill="#d1d0c5">11</text>
+  <text x="359.25" y="190" font-family="'Roboto Mono','SF Mono',Consolas,'Liberation Mono',monospace" font-size="10.5" fill="#646669">best streak (days)</text>
+</svg>
