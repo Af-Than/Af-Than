@@ -58,7 +58,7 @@ Full-stack developer passionate about building scalable MERN applications and cl
 ### ⌨️ Typing Stats
 
 <p align="center">
-  <a href="https://monkeytype.com/profile/YOUR_MONKEYTYPE_USERNAME">
+  <a href="https://monkeytype.com/profile/Af-Than">
     <img src="https://raw.githubusercontent.com/Af-Than/Af-Than/monkeytype-readme/Af-Than.svg" alt="My Monkeytype profile" />
   </a>
 </p>
